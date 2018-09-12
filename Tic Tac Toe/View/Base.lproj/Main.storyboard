@@ -179,9 +179,17 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="2kn-Y1-S5x" id="z48-mC-N1O"/>
                         <outlet property="gameOverLabel" destination="rmv-xe-QYD" id="9Pw-sA-UAD"/>
                         <outlet property="playAgainButton" destination="PhR-Py-OU2" id="P5l-kR-eQ2"/>
+                        <outletCollection property="fieldButtons" destination="2kn-Y1-S5x" collectionClass="NSMutableArray" id="hj5-f5-7Qa"/>
+                        <outletCollection property="fieldButtons" destination="vLv-7s-bwX" collectionClass="NSMutableArray" id="JEy-SJ-HoN"/>
+                        <outletCollection property="fieldButtons" destination="gcW-GC-euR" collectionClass="NSMutableArray" id="whR-v1-xaK"/>
+                        <outletCollection property="fieldButtons" destination="7iC-oJ-4ff" collectionClass="NSMutableArray" id="qOr-hs-uj0"/>
+                        <outletCollection property="fieldButtons" destination="UUN-lT-Hne" collectionClass="NSMutableArray" id="vBZ-tb-fby"/>
+                        <outletCollection property="fieldButtons" destination="czf-6y-5zL" collectionClass="NSMutableArray" id="2bM-Ue-R8J"/>
+                        <outletCollection property="fieldButtons" destination="CIr-1q-Mmq" collectionClass="NSMutableArray" id="YbO-At-EzD"/>
+                        <outletCollection property="fieldButtons" destination="txx-Rc-Fd1" collectionClass="NSMutableArray" id="kzb-yS-gv4"/>
+                        <outletCollection property="fieldButtons" destination="J58-OZ-3AX" collectionClass="NSMutableArray" id="jl6-UV-aor"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
